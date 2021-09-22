@@ -18,10 +18,10 @@ class Board
   def make_move(start_pos, current_player_name)
     held_stones = []
     held_stones << @cups[start_pos].shift until @cups[start_pos].empty?
-    if start_pos > 5
-      o_idx = 5
+    if start_pos > 6
+      o_idx = 6
     else
-      o_idx = 12
+      o_idx = 13
     end
     i = 0
     while !held_stones.empty?

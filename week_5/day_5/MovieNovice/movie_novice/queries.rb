@@ -10,7 +10,7 @@
 #  id          :integer      not null, primary key
 #  title       :string
 #  yr          :integer
-#  score       :float
+#  score       :floattest
 #  votes       :integer
 #  director_id :integer
 #
